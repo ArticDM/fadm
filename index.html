@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Nombre · Cuaderno personal</title>
+  <meta name="description" content="Portafolio personal: intereses, gustos e influencias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="barra__dentro">
+      <a href="#/" class="marca" id="marca">Tu Nombre</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="nav"></nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="pie">
+    <div class="pie__dentro" id="pie"></div>
+  </footer>
+
+  <dialog class="modal" id="modal">
+    <div class="modal__caja" id="modalCaja"></div>
+  </dialog>
+
+  <script src="contenido.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
